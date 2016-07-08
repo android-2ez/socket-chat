@@ -6,6 +6,11 @@
     <title>Socket.io Chat</title>
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/styles.css">
+    <style>
+        .well {
+            margin-top: 35px;
+        }
+    </style>
 </head>
 
 <body>
@@ -14,7 +19,7 @@
             <div class="col-md-6 col-md-offset-4 well">
                 <a href="/index.html">Change settings</a>
 
-                <h1 class='room-title'></h1>
+                <h1 class='room-title text-center'></h1>
 
                 <ul class="messages list-group">
                     <!-- Messages end up here! -->
@@ -27,12 +32,12 @@
                                 <span>
                                     <i class="glyphicon glyphicon-comment"></i>
                                 </span>
-                                <input type="text" name='message' class="form-control" />
                             </div>
+                            <input type="text" name='message' class="form-control" />
                         </div>
                     </div>
                     <div class="form-group">
-                        <input type="submit" class="btn btn-default btn-block"/>
+                        <input type="submit" class="btn btn-default btn-block" />
                     </div>
 
                 </form>
